@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.InfoFragment">
+    android:orientation="vertical"
+    tools:context=".ui.info.InfoFragment">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_tentang"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:gravity="start"
+        android:text="@string/tentang"
+        android:textColor="@color/black"
+        android:textColorHint="#C3352B2B" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btn_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:gravity="start"
+        android:text="@string/disclaimer"
+        android:textColor="@color/black"
+        android:textColorHint="#C3352B2B" />
+
+
+</LinearLayout>

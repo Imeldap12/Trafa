@@ -29,7 +29,7 @@
         tools:layout="@layout/fragment_camera2" />
     <fragment
         android:id="@+id/nav_info"
-        android:name="com.example.trafa.ui.InfoFragment"
+        android:name="com.example.trafa.ui.info.InfoFragment"
         android:label="@string/menu_info"
         tools:layout="@layout/fragment_info" />
 </navigation>
