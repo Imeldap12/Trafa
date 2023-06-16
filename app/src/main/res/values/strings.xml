@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TRAFA</string>
+    <string name="app_name">Trafa</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -41,4 +41,13 @@
     <string name="disclaimer">Disclaimer</string>
     <string name="Batik">Songket Bali</string>
     <string name="gunakan">Gunakan Foto</string>
+    <string name="Prediksi">Prediksi</string>
+    <string name="name_kain">Nama Kain</string>
+    <string name="Deskripsi">Deskripsi</string>
+    <string name="name_Kain">Nama Kain</string>
+    <string name="Detail">Detail</string>
+    <string name="favorite_button_description">favorite_button_description</string>
+    <string name="diclaimer">DICLAIMER</string>
+    <string name="page_1"> 1. Hasil prediksi didapatkan dari analisis dengan menggunakan AI</string>
+    <string name="page_2">2. Untuk saat ini hasil prediksi dibagi menjadi 15 motif kain tradisional, sehingga tidak dapat memprediksi kain diluar kelas yang tim sediakan</string>
 </resources>

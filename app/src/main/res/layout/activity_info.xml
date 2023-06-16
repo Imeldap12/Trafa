@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/young_leaf"
     tools:context=".ui.info.InfoActivity">
 
     <LinearLayout
@@ -16,6 +17,7 @@
             android:layout_height="80dp"
             android:background="@drawable/trafa"
             android:textStyle="bold"
+            android:textColor="@color/black"
             android:typeface="monospace" />
 
         <LinearLayout
@@ -26,11 +28,13 @@
             <TextView
                 android:layout_width="215dp"
                 android:layout_height="46dp"
-                android:background="@drawable/apaitutrafa" />
+                android:textColor="@color/black"
+                android:background="@drawable/apa" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:typeface="serif"
                 android:text="@string/penjelasan"/>
 
@@ -49,11 +53,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:typeface="serif"
                 android:text="@string/summary_p1"/>
 
             <TextView
                 android:layout_width="match_parent"
+                android:textColor="@color/black"
                 android:layout_height="wrap_content"
                 android:typeface="serif"
                 android:text="@string/summary_p2"/>
@@ -61,6 +67,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:typeface="serif"
                 android:text="@string/summary_p3"/>
         </LinearLayout>
@@ -78,12 +85,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:typeface="serif"
                 android:text="@string/code"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:typeface="serif"
                 android:text="@string/list"/>
 
